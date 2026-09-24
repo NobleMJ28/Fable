@@ -4,14 +4,14 @@ A mobile-friendly book listening website. Take or upload a photo of a book page,
 
 ## Publish with GitHub Pages
 
-This is a static website: the entry point is `index.html`, and no build step is needed.
+This is a static website. Its entry point is `index.html`, and no build step is needed.
 
-1. Create a GitHub repository and add these project files to its root.
-2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **GitHub Actions**.
-4. Push to the `main` branch. The included Pages workflow publishes the site and shows its address under **Settings → Pages**.
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Set the branch to **main** and the folder to **/(root)**, then click **Save**.
+4. Wait for the published address to appear on the Pages settings screen.
 
-The camera requires HTTPS, which GitHub Pages provides. Photo text recognition downloads Tesseract.js from jsDelivr the first time it is used, so OCR needs an internet connection. Speech playback uses voices installed in the visitor's browser or device. Saved books are kept in that browser's local storage.
+The camera requires HTTPS, which GitHub Pages provides. Photo text recognition downloads Tesseract.js from jsDelivr the first time it is used, so OCR needs an internet connection. Speech playback uses voices available in the visitor’s browser or device. Saved books are kept in that browser’s local storage.
 
 ## Run locally
 
